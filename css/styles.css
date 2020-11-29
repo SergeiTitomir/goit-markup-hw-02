@@ -48,7 +48,7 @@ a {
   text-decoration: none;
 }
 
-.logo-first {
+.logo-first-part {
   color: var(--accent-color);
 }
 
@@ -172,7 +172,7 @@ a {
 .footer {
   background-color: var(--backgr-color-first);
 }
-.logo-second-dark {
+.logo-second-part-dark {
   color: var(--main-color-dark-backgr);
 }
 .address-footer-link {
@@ -186,3 +186,38 @@ a {
   color: var(--main-color-dark-backgr);
 }
 /* ============== END FOOTER ============== */
+
+/* ============== PORTFOLIO ============== */
+
+.portfolio-button {
+  color: var(--heading-color);
+  background-color: var(--backgr-color-second);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-color-dark-backgr);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading-color);
+}
+
+.portfolio-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+
+/* ============== END PORTFOLIO ============== */
