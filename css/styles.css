@@ -21,6 +21,11 @@ a {
   color: var(--main-color);
 }
 
+button {
+  font-family: var(--main-font);
+  border: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -196,6 +201,7 @@ a {
 .portfolio-button {
   color: var(--heading-color);
   background-color: var(--backgr-color-second);
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
